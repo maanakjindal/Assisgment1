@@ -14,7 +14,7 @@ enter the year-2004
 next date is:30/4/2004
 
 =========== RESTART: C:\Users\dell\OneDrive\Desktop\python\ass_3q3.py ==========
-the solution of question 4
+the solution of question 3
 enter the list:1,2,3,4,5
 output is- [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 
