@@ -108,7 +108,7 @@ else :
 
 print('question4')
 
-class student:
+class Student:
     def __init__(self,name,roll_no):
         self.name=name
         self.roll_no=roll_no
@@ -120,7 +120,7 @@ class student:
 
 name=input('enter the name of the student:')
 roll_no=int(input('enter the roll no the student:'))
-student1=student(name,roll_no)
+student1=Student(name,roll_no)
 
 print(f'the roll no of the student {student1.name} is {student1.roll_no}')
 
@@ -128,7 +128,7 @@ print(f'the roll no of the student {student1.name} is {student1.roll_no}')
 del student1
 
 print('question5')
-class employee:
+class Employee:
     def __init__(self,name,salary):
         self.name=name
         self.salary=salary
@@ -136,9 +136,9 @@ class employee:
     def __del__(self):
       print('the record of ',self.name ,'is destroyed')
         
-employee1=employee('mehak',40000)
-employee2=employee('ashok',50000)
-employee3=employee('viren',60000)
+employee1=Employee('mehak',40000)
+employee2=Employee('ashok',50000)
+employee3=Employee('viren',60000)
 
 
 print('the salary of %s is %d'%(employee1.name,employee1.salary))
